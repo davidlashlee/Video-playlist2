@@ -1,0 +1,10 @@
+<h1>Hello, Rails!</h1>
+
+
+
+<% @allvideos.each do |video| %>
+	<hr><%= link_to video.title, video %></hr>
+	<%= video.link %>
+	<% end %>
+	<hr></hr>
+

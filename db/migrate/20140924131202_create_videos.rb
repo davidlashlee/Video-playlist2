@@ -1,6 +1,6 @@
-class CreateVideos < ActiveRecord::Migration
+class CreateVideo < ActiveRecord::Migration
   def change
-    create_table :videos do |t|
+    create_table :video do |t|
       t.string :title
       t.string :link
 

@@ -1,0 +1,36 @@
+<p> Please enter a video title</p>
+
+<p> Please enter a video link</p>
+
+<p>
+<%= form_for @video do |f| %>
+
+<div>
+	<%= f.label :title %>
+	<%= f.text_field :title %>
+</div>
+
+<div>
+
+	<%= f.label :link %>
+	<%= f.text_field :link %>
+</div>
+
+<div>
+	<%= f.submit %>
+<% end %>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</p>
